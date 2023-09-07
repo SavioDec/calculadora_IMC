@@ -217,55 +217,58 @@
       footer div {
           font-size: 1.5rem;
       }
+  }
 
-      @media (max-width: 328px) {
-          .grid .ResultadoText {
-              margin-left: 1rem;
-          }
+  @media (max-width: 328px) {
+      .grid .ResultadoText {
+          margin-left: 1rem;
+      }
 
-          .IMCText .ResultadoText,
-          h2,
-          p {
-              font-size: 1.5rem;
-          }
+      .IMCText .ResultadoText,
+      h2,
+      p {
+          font-size: 1.5rem;
+      }
 
-          .mobileCorrection,
-          h1,
-          p,
-          footer div {
-              font-size: 1.5rem;
-          }
+      .mobileCorrection,
+      h1,
+      p,
+      footer div {
+          font-size: 1.5rem;
+      }
+  }
 
-          @media (max-width: 325px) {
+  @media (max-width: 325px) {
 
-              .IMCText .ResultadoText,
-              h2,
-              p {
-                  font-size: 1.3rem;
-              }
+      .IMCText .ResultadoText,
+      h2,
+      p {
+          font-size: 1.3rem;
+      }
 
-              .mobileCorrection,
-              h1,
-              p,
-              footer div {
-                  font-size: 1.3rem;
-              }
-          }
+      .mobileCorrection,
+      h1,
+      p,
+      footer div {
+          font-size: 1.3rem;
+      }
+  }
 
-          @media (max-width: 289px) {
-              .grid .ResultadoText {
-                  margin-left: 0rem;
-              }
+  @media (max-width: 289px) {
+      .grid .ResultadoText {
+          margin-left: 0rem;
+      }
 
-              .IMCText .ResultadoText,
-              h2,
-              p {
-                  font-size: 1.3rem;
-              }
+      .IMCText .ResultadoText,
+      h2,
+      p {
+          font-size: 1.3rem;
+      }
 
-              .mobileCorrection,
-              h1,
-              p,
-              footer div {
-                  font-size: 1.3rem;
-              }
+      .mobileCorrection,
+      h1,
+      p,
+      footer div {
+          font-size: 1.3rem;
+      }
+  }

@@ -3,7 +3,7 @@
 
   :root {
       --primary-color: rgb(85, 3, 3);
-      --secundary-color: rgb(92, 67, 67);
+      --secondary-color: rgb(92, 67, 67);
   }
 
   html {
@@ -73,7 +73,7 @@
   }
 
   form button:hover {
-      background-color: var(--secundary-color);
+      background-color: var(--secondary-color);
 
   }
 
@@ -127,7 +127,7 @@
       text-align: center;
   }
 
-  .instagram img {
+  .Instagram img {
       max-width: 1.8rem;
       max-height: 1.8rem;
 

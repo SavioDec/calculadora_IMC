@@ -40,7 +40,7 @@ function getNivelImc(imc) {
     `sobrepeso`,
     `obesidade grau1`,
     `obesidade grau2`,
-    `obesidade grau13`,
+    `obesidade grau3`,
   ];
 
   if (imc >= 39.9) return nivel[5];

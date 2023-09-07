@@ -11,6 +11,7 @@
 
 <body>
     <section class="container">
+
         <div class="img">
             <img src="./assets/img/imc logo.svg" alt="logo imc">
         </div>
@@ -42,21 +43,24 @@
                 </p>
             </article>
         </div>
-        <h1>Calcule seu IMC</h1>
+        <div class="mobileCorrection">
+            <h1>Calcule seu IMC</h1>
 
-        <form action="/" id="form" method="post">
-            <label for="input-altura">Altura</label>
-            <input type="text" id="altura" name="altura">
-            <label for="input-peso">Peso</label>
-            <input type="text" id="peso" name="peso">
-            <button type="submit">Enviar</button>
-        </form>
+            <form action="/" id="form" method="post">
+                <label for="input-altura">Altura</label>
+                <input type="text" id="altura" name="altura">
+                <label for="input-peso">Peso</label>
+                <input type="text" id="peso" name="peso">
+                <button type="submit">Enviar</button>
+            </form>
 
-        <div id="resultado"></div>
-        <footer> <a href="https://www.instagram.com/saviodec/" target="_blank">
-                <div class="instagram"><img src="./assets/img/logo instagram.svg" alt="logo instagram"></div>Feito por
-                Sávio Decaro
-            </a></footer>
+            <div id="resultado"></div>
+            <footer> <a href="https://www.instagram.com/saviodec/" target="_blank">
+                    <div class="instagram"><img src="./assets/img/logo instagram.svg" alt="logo instagram"></div>Feito
+                    por
+                    Sávio Decaro
+                </a></footer>
+        </div>
     </section>
 
     <script src="./assets/js/main.js"></script>

@@ -44,7 +44,7 @@
       display: block;
       width: 100%;
       margin-bottom: 1rem;
-      
+
 
   }
 
@@ -130,92 +130,142 @@
   .instagram img {
       max-width: 1.8rem;
       max-height: 1.8rem;
-      
+
   }
 
   @media (max-width: 566px) {
-    .grid .IMCText {
-        align-items: flex-start;
-        margin-right: 10rem;
-    }
+      .grid .IMCText {
+          align-items: flex-start;
+          margin-right: 10rem;
+      }
   }
+
   @media (max-width: 514px) {
-    .grid .IMCText {
-        align-items: flex-start;
-        margin-right: 7rem;
-    }
+      .grid .IMCText {
+          align-items: flex-start;
+          margin-right: 7rem;
+      }
   }
+
   @media (max-width: 486px) {
-    .grid .IMCText {
-        align-items: flex-start;
-        margin-right: 2rem;
-    }
+      .grid .IMCText {
+          align-items: flex-start;
+          margin-right: 2rem;
+      }
   }
+
   @media (max-width: 437px) {
-    .grid .ResultadoText {
-        margin-left: 1.4rem;
-    }
-    .grid .IMCText {
-        align-items: flex-start;
-        margin-right: 0.1rem;
-    }
+      .grid .ResultadoText {
+          margin-left: 1.4rem;
+      }
+
+      .grid .IMCText {
+          align-items: flex-start;
+          margin-right: 0.1rem;
+      }
   }
+
   @media (max-width: 430px) {
-    .grid .ResultadoText {
-        margin-left: 1.4rem;
-    }
-    .IMCText .ResultadoText, h2, p {
-        font-size: 2.1rem;
-    }
-    .mobileCorrection, h1, p, footer div {
-        font-size: 2.1rem;
-    }
+      .grid .ResultadoText {
+          margin-left: 1.4rem;
+      }
+
+      .IMCText .ResultadoText,
+      h2,
+      p {
+          font-size: 2.1rem;
+      }
+
+      .mobileCorrection,
+      h1,
+      p,
+      footer div {
+          font-size: 2.1rem;
+      }
   }
+
   @media (max-width: 416px) {
-    
-    .IMCText .ResultadoText, h2, p {
-        font-size: 1.6rem;
-    }
-    .mobileCorrection, h1, p, footer div {
-        font-size: 1.6rem;
-    }
+
+      .IMCText .ResultadoText,
+      h2,
+      p {
+          font-size: 1.6rem;
+      }
+
+      .mobileCorrection,
+      h1,
+      p,
+      footer div {
+          font-size: 1.6rem;
+      }
   }
+
   @media (max-width: 342px) {
-    .grid .ResultadoText {
-        margin-left: 1.4rem;
-    }
-    .IMCText .ResultadoText, h2, p {
-        font-size: 1.5rem;
-    }
-    .mobileCorrection, h1, p, footer div {
-        font-size: 1.5rem;
-    }
-  @media (max-width: 328px) {
-    .grid .ResultadoText {
-        margin-left: 1rem;
-    }
-    .IMCText .ResultadoText, h2, p {
-        font-size: 1.5rem;
-    }
-    .mobileCorrection, h1, p, footer div {
-        font-size: 1.5rem;
-    }
-  @media (max-width: 325px) {
-    .IMCText .ResultadoText, h2, p {
-        font-size: 1.3rem;
-    }
-    .mobileCorrection, h1, p, footer div {
-        font-size: 1.3rem;
-    }
-  }
-  @media (max-width: 289px) {
-    .grid .ResultadoText {
-        margin-left: 0rem ;
-    }
-    .IMCText .ResultadoText, h2, p {
-        font-size: 1.3rem;
-    }
-    .mobileCorrection, h1, p, footer div {
-        font-size: 1.3rem;
-    }
-  }
+      .grid .ResultadoText {
+          margin-left: 1.4rem;
+      }
+
+      .IMCText .ResultadoText,
+      h2,
+      p {
+          font-size: 1.5rem;
+      }
+
+      .mobileCorrection,
+      h1,
+      p,
+      footer div {
+          font-size: 1.5rem;
+      }
+
+      @media (max-width: 328px) {
+          .grid .ResultadoText {
+              margin-left: 1rem;
+          }
+
+          .IMCText .ResultadoText,
+          h2,
+          p {
+              font-size: 1.5rem;
+          }
+
+          .mobileCorrection,
+          h1,
+          p,
+          footer div {
+              font-size: 1.5rem;
+          }
+
+          @media (max-width: 325px) {
+
+              .IMCText .ResultadoText,
+              h2,
+              p {
+                  font-size: 1.3rem;
+              }
+
+              .mobileCorrection,
+              h1,
+              p,
+              footer div {
+                  font-size: 1.3rem;
+              }
+          }
+
+          @media (max-width: 289px) {
+              .grid .ResultadoText {
+                  margin-left: 0rem;
+              }
+
+              .IMCText .ResultadoText,
+              h2,
+              p {
+                  font-size: 1.3rem;
+              }
+
+              .mobileCorrection,
+              h1,
+              p,
+              footer div {
+                  font-size: 1.3rem;
+              }

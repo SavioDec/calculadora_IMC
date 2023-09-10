@@ -183,6 +183,42 @@
           font-size: 2.1rem;
       }
   }
+  @media (max-width: 426px) {
+      .grid .ResultadoText {
+          margin-left: 1rem;
+      }
+
+      .IMCText .ResultadoText,
+      h2,
+      p {
+          font-size: 2.1rem;
+      }
+
+      .mobileCorrection,
+      h1,
+      p,
+      footer div {
+          font-size: 2.1rem;
+      }
+  }
+  @media (max-width: 422px) {
+      .grid .ResultadoText {
+          margin-left:1rem;
+      }
+
+      .IMCText .ResultadoText,
+      h2,
+      p {
+          font-size: 1.8rem;
+      }
+
+      .mobileCorrection,
+      h1,
+      p,
+      footer div {
+          font-size: 1.8rem;
+      }
+  }
 
   @media (max-width: 416px) {
 
